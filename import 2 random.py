@@ -2,18 +2,9 @@ import random
 import os
 import time
 
-
-# =============================
-# LIMPIAR PANTALLA
-# =============================
-
 def limpiar():
     os.system("cls" if os.name == "nt" else "clear")
 
-
-# =============================
-# TITULO
-# =============================
 
 def titulo():
 
@@ -29,12 +20,7 @@ def titulo():
                                                                                                                      /$$  | $$                              
                                                                                                                     |  $$$$$$/                              
                                                                                                                      \\______/                               
-""")
 
-
-# =============================
-# PANTALLA INICIAL
-# =============================
 
 def pantalla_inicio():
 
@@ -55,10 +41,6 @@ def pantalla_inicio():
 
         print("Respuesta inválida")
 
-
-# =============================
-# MOSTRAR CREDITOS
-# =============================
 
 def mostrar_creditos(creditos):
 
@@ -350,6 +332,7 @@ def blackjack():
         print("\n🥇 GANASTE 🥇")
     else:
         print("\n💻 LA MÁQUINA GANA 💻")
+
 
 
 blackjack()
