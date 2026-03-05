@@ -51,12 +51,7 @@ def mostrar_creditos(creditos):
     print(f"Jugador      →  ${creditos['jugador']}")
     print(f"Máquina      →  ${creditos['maquina']}")
 
-    print("\n══════════════════════════════\n")
 
-
-# =============================
-# CREAR MAZO
-# =============================
 
 def crear_mazo():
 
@@ -336,3 +331,4 @@ def blackjack():
 
 
 blackjack()
+
